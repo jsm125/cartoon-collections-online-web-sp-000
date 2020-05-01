@@ -7,13 +7,15 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.map { |planeteer_calls| planeteer_calls.capitalize + '!'}
 end
 
-def long_planeteer_calls(words)# code an argument here
+def long_planeteer_calls(words)
   # Your code here
-  short_words = []
-  long_words = []
-  if words.size > 4
-    
-    
+  i = 0
+  if array.any? {|i| i.size > 4}
+    return true
+  else
+    return false
+  i += 1
+  end
 end
 
 def find_the_cheese# code an argument here
