@@ -10,7 +10,7 @@ def summon_captain_planet(planeteer_calls)
     collection << yield(planeteer_calls[i])
     i+=1
   end
-  collection.capitalize
+  collection
 end
 
 def long_planeteer_calls# code an argument here
