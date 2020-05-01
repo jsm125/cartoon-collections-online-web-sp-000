@@ -4,13 +4,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
   # Your code here
-  i = 0
-  collection = []
-  while i < planeteer_calls.length
-    collection << yield(planeteer_calls[i])
-    i+=1
-  end
-  collection
+  planeteer_calls.map
 end
 
 def long_planeteer_calls# code an argument here
