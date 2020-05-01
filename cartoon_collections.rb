@@ -8,7 +8,6 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(words)
-  # Your code here
   i = 0
   if words.any? {|i| i.size > 4}
     return true
@@ -18,7 +17,7 @@ def long_planeteer_calls(words)
   end
 end
 
-def find_the_cheese# code an argument here
+def find_the_cheese(string)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
